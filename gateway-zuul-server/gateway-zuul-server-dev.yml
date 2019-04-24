@@ -4,7 +4,7 @@ spring:
     store-type: redis
     
 gateway:
-  permit: /actuator/info,/actuator/health,/producer-service/hello
+  permit: /actuator/info,/actuator/health,/producer/world
     
 #网关路由配置
 zuul:
