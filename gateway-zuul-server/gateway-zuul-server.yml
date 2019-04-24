@@ -1,1 +1,2 @@
-
+gateway:
+  permit: /actuator/info,/actuator/health,/producer/hello
